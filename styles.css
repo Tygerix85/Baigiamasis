@@ -1,0 +1,170 @@
+body{
+    background-color:whitesmoke;
+align-items: center;
+margin: 0;
+  padding: 30px;
+  font-family: "Arial", sans-serif;
+gap: 100px;
+}
+.header{
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    text-align: center;
+    gap: 24px;
+    background-color:seashell;
+    border-radius: 20px;
+
+}
+  .info{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    font-weight: 700;
+    font-size: 20px;
+    align-items: center;
+  }  
+  a{
+    color: black;
+    text-decoration: none;
+  }
+  a:hover{
+    color: darkred;
+  }
+  .button {
+    padding: 10px 50px;
+    color:darkred;
+    background-color: whitesmoke;
+    border: 20px;
+    border-radius: 15px;
+    font-weight: 900;
+    font-size: 15px;
+  }
+  .button:hover{
+    background-color: darkred;
+    color: aliceblue;
+  }
+  .conteiner{
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+  }
+  h1{
+    text-align: center;
+    font-size: 50px;
+  }
+  .walk{
+    width: 1480px;
+    height: 400px;
+    border-radius: 30px;
+  }
+  h2{
+    text-align: center;
+  
+  font-weight: 900;
+  }
+  .hikes{
+    margin: auto;
+    padding: 20px;
+list-style-type: none;
+display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    text-align: auto;
+    gap: 20px;
+    color:dimgray
+  
+  }
+  .event{
+    color: darkred;
+    font-weight: 800;
+    font-size: 20px;
+  }
+  .event:hover{
+    color: darkred;
+  }
+  section{
+    gap: 30px;
+  }
+  #items{
+    padding:20px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 50px;
+    background-color: antiquewhite;
+    border-radius: 30px;
+    height: auto;
+  }
+
+  .register{
+    display: flex;
+    flex-direction: column;
+    background-color: whitesmoke;
+    align-items: center;
+      font-family: "Arial", sans-serif;
+
+  }
+  .back{
+    padding: 20px;
+    font-weight: 700;
+    font-size: 35px;
+  }
+  .form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 200px;
+    margin: 0 auto;
+    padding: 20px;
+   border: none;
+gap: 5px;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  }
+  .hikes-register{
+    padding: 10px 50px;
+    color:darkred;
+    background-color: whitesmoke;
+    border: 20px;
+    border-radius: 15px;
+    font-weight: 900;
+    font-size: 15px;
+  }
+  
+  .about{
+    margin: 30px;
+    padding: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+  }
+  .Druskininkai-photo{
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 30px;
+  }
+  .Druskininkai{
+    position: absolute;
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    color: black;
+    font-weight: 10;
+    font-size: 30px; 
+  
+    text-align: center;
+  }
